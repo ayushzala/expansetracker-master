@@ -1,0 +1,11 @@
+.total {
+    font-size: medium;
+    margin-inline: 1rem;
+    border: 1px solid grey;
+    padding-inline: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    background: bisque;
+}

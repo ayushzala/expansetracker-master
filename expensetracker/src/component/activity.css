@@ -1,0 +1,11 @@
+.abc {
+    display: flex;
+    margin: 1rem;
+}
+
+@media (max-width: 767px) {
+    .abc {
+        flex-direction: column;
+        /* Or use `flex-column` in Bootstrap v5 */
+    }
+}

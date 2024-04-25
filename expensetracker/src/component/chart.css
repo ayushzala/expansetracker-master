@@ -1,0 +1,16 @@
+/* Within your component's CSS file or a global stylesheet */
+
+.chart-container {
+    display: flex;
+    flex-direction: row;
+    /* Place charts horizontally */
+    justify-content: space-evenly;
+    /* Distribute charts evenly */
+}
+
+.chart-container .chart-div {
+    flex: 1;
+    /* Ensure each chart takes equal width */
+    margin-bottom: 20px;
+    /* Add some spacing between charts */
+}
